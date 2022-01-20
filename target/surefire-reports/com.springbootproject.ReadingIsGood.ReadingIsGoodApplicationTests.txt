@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.springbootproject.ReadingIsGood.ReadingIsGoodApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.379 s - in com.springbootproject.ReadingIsGood.ReadingIsGoodApplicationTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.588 s <<< FAILURE! - in com.springbootproject.ReadingIsGood.ReadingIsGoodApplicationTests
+contextLoads  Time elapsed: 0.028 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController' defined in file [/Users/aleynakaralar/Desktop/RestApiDemo/target/classes/com/springbootproject/ReadingIsGood/BookController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springbootproject.ReadingIsGood.BookRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springbootproject.ReadingIsGood.BookRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+

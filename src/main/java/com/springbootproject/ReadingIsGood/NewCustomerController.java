@@ -25,6 +25,7 @@ public class NewCustomerController{
 
     @GetMapping
     public ResponseEntity<List<NewCustomerDto>> list(){
+
         return ResponseEntity.ok(newCustomerDtoList);
     }
     //TODO delete user by id

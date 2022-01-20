@@ -1,3 +1,6 @@
 com/springbootproject/ReadingIsGood/ReadingIsGoodApplication.class
-com/springbootproject/ReadingIsGood/NewCustomerDto.class
 com/springbootproject/ReadingIsGood/NewCustomerController.class
+com/springbootproject/ReadingIsGood/BookController.class
+com/springbootproject/ReadingIsGood/NewCustomerDto.class
+com/springbootproject/ReadingIsGood/Book.class
+com/springbootproject/ReadingIsGood/BookRepository.class
